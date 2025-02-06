@@ -1,2 +1,1 @@
-# devnotes
- 
+# DEVLOPER LOG
