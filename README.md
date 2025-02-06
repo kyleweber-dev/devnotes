@@ -26,7 +26,7 @@ Here is where I will track my current progress with the different coding languag
 
 This section contains my check-ins whenever I update this repository. These logs will help me and others track my progress as I continue to learn and improve.
 
-#### 2025-02-06
+#### **2025-02-06**
 
 - Created git repository
 - Created `HTML`, `CSS`, `JS`, `Markdown`, and `React` notes
