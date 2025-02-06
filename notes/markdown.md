@@ -74,4 +74,3 @@ Output
 ```javascript
 console.log("Hello World");
 ```
-```
