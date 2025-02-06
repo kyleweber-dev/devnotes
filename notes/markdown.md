@@ -28,7 +28,7 @@ Output
 `Inline Code` → `code`
 
 ## 📌 Lists
-###🔹Unordered List
+### 🔹Unordered List
 ```md
 - Item 1
 - Item 2
@@ -41,7 +41,7 @@ Output
   - Sub-item
 - Item 3
 
-###🔹 Ordered List
+### 🔹 Ordered List
 ```md
 1. First item
 2. Second item
