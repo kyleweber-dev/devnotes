@@ -74,3 +74,8 @@ Output
 ```javascript
 console.log("Hello World");
 ```
+
+**Output**
+```javascript
+console.log("Hello Wolrd");
+```
