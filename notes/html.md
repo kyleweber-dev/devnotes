@@ -28,7 +28,7 @@ Tags are the building blocks of HTML. They define the structure and content of a
 - `<p>`: Paragraph tag for text.
 - `<a>`: Anchor tag for links.
 - `<img>`: Image tag to display pictures.
-- `<!-- -->`: Comment tage for leaving notes in the code.
+- `<!-- -->`: Comment tag for leaving notes in the code.
 
 ---
 
@@ -46,7 +46,7 @@ Attributes provide additional information about an element. They are written ins
 
 ---
 
-## Simple Start Of HTML Webpage
+## Simple Start of HTML Webpage
 ```md 
 <!DOCTYPE html>
 <html lang="en"> <!-- This sets the page language -->
