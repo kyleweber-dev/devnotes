@@ -15,9 +15,28 @@ Use `#` for headings:
 ### Header 3
 #### Header 4
 ```
-
 Output
 # Header 1
 ## Header 2
 ### Header 3
 #### Header 4
+
+## 📌 Text Formatting
+**Bold Text** → **Bold**
+*Italic Text* → *Italic*
+~~Strikethrough~~ → ~~Strikethrough~~
+`Inline Code` → `code`
+
+## 📌 Lists
+**Unordered List**
+```md
+- Item 1
+- Item 2
+  - Sub-item
+- Item 3
+```
+Output:
+- Item 1
+- Item 2
+  - Sub-item
+- Item 3
