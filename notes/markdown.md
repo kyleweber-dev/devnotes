@@ -60,3 +60,11 @@ Output
 ```
 **Output:**
 [Google](https://www.google.com)
+
+### 🖼️ Images
+```md
+![Alt Text](https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg)
+```
+
+**Output:**
+![Alt Text](https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg)
