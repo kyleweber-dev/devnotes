@@ -79,3 +79,41 @@ console.log("Hello World");
 ```javascript
 console.log("Hello Wolrd");
 ```
+
+## 📌 Blockquotes
+```md
+> This is a quote.
+```
+
+**Output**
+> This is a quote.
+
+## 📌 Horizontal Line
+```md
+---
+```
+**Output**
+---
+
+## 📌 Tables
+```md
+| Name  | Age | Role  |
+|-------|----|-------|
+| John  | 25 | Dev   |
+| Sarah | 30 | Designer |
+```
+**Output**
+| Name  | Age | Role  |
+|-------|----|-------|
+| John  | 25 | Dev   |
+| Sarah | 30 | Designer |
+
+
+## 📌 Task List
+```md
+- [x] Completed Task
+- [ ] Incomplete Task
+```
+**Output**
+- [x] Completed Task
+- [ ] Incomplete Task
