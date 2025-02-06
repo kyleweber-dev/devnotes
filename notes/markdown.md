@@ -14,3 +14,9 @@ Use `#` for headings:
 ## Header 2
 ### Header 3
 #### Header 4
+
+Output
+# Header 1
+## Header 2
+### Header 3
+#### Header 4
