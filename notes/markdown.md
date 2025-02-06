@@ -67,4 +67,4 @@ Output
 ```
 
 **Output:**
-![Alt Text](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/2d78d141-1f64-44c8-976b-7321284e5147/dfjfdbh-02721342-e03d-4748-965f-f5fd5773baba.png/v1/fill/w_1192,h_670,q_70,strp/coding__programming__wallpaper__1_by_arsen2005_dfjfdbh-pre.jpgg)
+![Alt Text](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/2d78d141-1f64-44c8-976b-7321284e5147/dfjfdbh-02721342-e03d-4748-965f-f5fd5773baba.png/v1/fill/w_1192,h_670,q_70,strp/coding__programming__wallpaper__1_by_arsen2005_dfjfdbh-pre.jpgg/250)
