@@ -1,11 +1,13 @@
 # HTML Notes
 
 ## Introduction
+
 > This page contains my detailed notes about HTML. I'll use this as a reference to document everything I learn while working with HTML, including tags, attributes, best practices, and more.
 
 ---
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Basic Tags](#basic-tags)
 - [Attributes](#attributes)
@@ -17,10 +19,13 @@
 ---
 
 ## Basic Tags
+
 ### What are Tags?
+
 Tags are the building blocks of HTML. They define the structure and content of a webpage. Most tags come in pairs with an opening tag (`<tag>`) and a closing tag (`</tag>`).
 
 ### Common Tags
+
 - `<html>`: Defines the root of an HTML document.
 - `<head>`: Contains metadata and links (e.g., stylesheets, scripts).
 - `<body>`: Contains the content displayed on the webpage.
@@ -29,14 +34,21 @@ Tags are the building blocks of HTML. They define the structure and content of a
 - `<a>`: Anchor tag for links.
 - `<img>`: Image tag to display pictures.
 - `<!-- -->`: Comment tag for leaving notes in the code.
+- `<Section>`: Tag for grouping similiter content.
+- `<Div>`: Tag for grouping content
+- `<Form>`: Used to group an input
+- `<Lable>`: Used to add text to inputs (Lable needs a `<p>` inside of it to show text)
 
 ---
 
 ## Attributes
+
 ### What are Attributes?
+
 Attributes provide additional information about an element. They are written inside the opening tag and follow a `name="value"` format.
 
 ### Common Attributes
+
 - `id`: Specifies a unique identifier for an element.
 - `class`: Defines one or more classes for CSS or JavaScript targeting.
 - `src`: Specifies the source file for images or scripts.
@@ -47,7 +59,8 @@ Attributes provide additional information about an element. They are written ins
 ---
 
 ## Simple Start of HTML Webpage
-```md 
+
+```md
 <!DOCTYPE html>
 <html lang="en"> <!-- This sets the page language -->
 <head>
