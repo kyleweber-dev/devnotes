@@ -78,37 +78,4 @@ Attributes provide additional information about an element. They are written ins
 </html>
 ```
 
-# HTML Input Best Practices Cheat Sheet
-
-## 1. **Basic Input Structure**
-
-Each input should:
-
-- Be inside a `<form>` for proper submission.
-- Have a `<label>` linked to it using the `for` attribute.
-- Have a `name` attribute for data submission.
-- Have an `id` that matches the `for` in the label.
-
-```html
-<form>
-  <label for="username">Username:</label>
-  <input type="text" id="username" name="username" required />
-</form>
-```
-
-## 2. **Types of Inputs**
-
-Text Input (Single Line)
-
-```html
-<label for="name">Full Name:</label>
-<input
-  type="text"
-  id="name"
-  name="name"
-  placeholder="Enter your full name"
-  required
-/>
-```
-
-✅ Use `placeholder` for hints but always use a `<label>`. ✅ Use `required` to ensure input is filled.
+## HTML Input Best Practices Cheat Sheet
