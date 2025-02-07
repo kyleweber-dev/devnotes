@@ -84,9 +84,9 @@ Attributes provide additional information about an element. They are written ins
 
 Each input should:
 
-- Be inside a <form> to allow submission.
+- Be inside a `<form>` to allow submission.
 
-- Have a <label> linked using the for attribute.
+- Have a `<label>` linked using the for attribute.
 
 - Have a name attribute for data submission.
 
