@@ -78,4 +78,4 @@ Attributes provide additional information about an element. They are written ins
 </html>
 ```
 
-## HTML Input Best Practices Cheat Sheet
+# HTML Input Best Practices Cheat Sheet
