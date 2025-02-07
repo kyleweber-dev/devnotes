@@ -95,3 +95,20 @@ Each input should:
   <input type="text" id="username" name="username" required />
 </form>
 ```
+
+## 2. **Types of Inputs**
+
+Text Input (Single Line)
+
+```html
+<label for="name">Full Name:</label>
+<input
+  type="text"
+  id="name"
+  name="name"
+  placeholder="Enter your full name"
+  required
+/>
+```
+
+✅ Use `placeholder` for hints but always use a `<label>`. ✅ Use `required` to ensure input is filled.
