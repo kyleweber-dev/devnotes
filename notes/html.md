@@ -29,6 +29,7 @@ Tags are the building blocks of HTML. They define the structure and content of a
 - `<html>`: Defines the root of an HTML document.
 - `<head>`: Contains metadata and links (e.g., stylesheets, scripts).
 - `<body>`: Contains the content displayed on the webpage.
+- `<Main>`: This is fot the main content of the page.
 - `<h1>` to `<h6>`: Heading tags for different levels of importance.
 - `<p>`: Paragraph tag for text.
 - `<a>`: Anchor tag for links.
@@ -38,6 +39,7 @@ Tags are the building blocks of HTML. They define the structure and content of a
 - `<Div>`: Tag for grouping content
 - `<Form>`: Used to group an input
 - `<Lable>`: Used to add text to inputs (Lable needs a `<p>` inside of it to show text)
+- `<Button>`: Used to make a button (Can )
 
 ---
 
