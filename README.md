@@ -35,3 +35,14 @@ This section contains my check-ins whenever I update this repository. These logs
 **Check-In Notes:**
 
 > As of today, I am proficient in creating a simple static website in `HTML`. I can apply some `CSS` to it, but not in the most efficient way. My goals moving forward are to keep using [FreeCodeCamp](https://www.freecodecamp.org/) and [W3Schools](https://www.w3schools.com/) to assist in learning.
+
+
+### ✔ 14 Feb 2025
+
+- Created my [Portfolio](https://kyleweber.dev)
+- Created `HTML`, `CSS`, `JS`, `Markdown`, and `React` notes
+- Completed `Markdown` notes
+
+**Check-In Notes:**
+
+> As of today, I am proficient in creating a simple static website in `HTML`. I can apply some `CSS` to it, but not in the most efficient way. My goals moving forward are to keep using [FreeCodeCamp](https://www.freecodecamp.org/) and [W3Schools](https://www.w3schools.com/) to assist in learning.
