@@ -39,10 +39,9 @@ This section contains my check-ins whenever I update this repository. These logs
 
 ### ✔ 14 Feb 2025
 
-- Created my [Portfolio](https://kyleweber.dev)
-- Created `HTML`, `CSS`, `JS`, `Markdown`, and `React` notes
-- Completed `Markdown` notes
+- Launched my [Portfolio](https://kyleweber.dev)
+- Built and deployed a [Google Landing Page](https://google-homepage.kyleweber.dev/)
 
 **Check-In Notes:**
 
-> As of today, I am proficient in creating a simple static website in `HTML`. I can apply some `CSS` to it, but not in the most efficient way. My goals moving forward are to keep using [FreeCodeCamp](https://www.freecodecamp.org/) and [W3Schools](https://www.w3schools.com/) to assist in learning.
+> Today, I’m feeling more confident with HTML and CSS. Flexbox, Grid, and other core layout concepts are finally starting to click. Moving forward, I’ll reinforce my full-stack development skills by incorporating design into my workflow. I plan to start using Figma to create simple layouts and then bring them to life with code.
