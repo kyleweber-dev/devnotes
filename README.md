@@ -36,6 +36,7 @@ This section contains my check-ins whenever I update this repository. These logs
 
 > As of today, I am proficient in creating a simple static website in `HTML`. I can apply some `CSS` to it, but not in the most efficient way. My goals moving forward are to keep using [FreeCodeCamp](https://www.freecodecamp.org/) and [W3Schools](https://www.w3schools.com/) to assist in learning.
 
+---
 
 ### ✔ 14 Feb 2025
 
