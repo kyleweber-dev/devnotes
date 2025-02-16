@@ -53,15 +53,21 @@ export default defineConfig({
 
 ---
 
-## 5. Import Tailwind in Your CSS
+## 5. Import Tailwind in Your CSS & HTML
 
 Open `src/style.css` (or create it if it doesn’t exist) and add:
 
-```html
-<link href="/src/style.css" rel="stylesheet" />
+```css
+@import "tailwindcss";
 ```
 
 This ensures Tailwind styles are applied.
+
+Then in you `indext.html` add this:
+
+```html
+<link rel="stylesheet" href="/src/style.css" />
+```
 
 ---
 
