@@ -17,8 +17,9 @@ Below are links to tools and resources I frequently use during my journey:
 Here is where I will track my current progress with the different coding languages I want to learn. Once I feel I've achieved a solid understanding, I'll mark it as complete.
 
 - [x] Markdown
-- [ ] HTML
-- [ ] CSS
+- [x] HTML
+- [x] CSS
+- [ ] Tailwindcss
 - [ ] JavaScript (JS)
 - [ ] React
 
