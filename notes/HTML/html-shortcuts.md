@@ -321,7 +321,7 @@ header#header>img.navLogo[alt="Company Logo"]+(nav.navLinks>ul.navList>li.navLin
 </header>
 ```
 
-### Hero section w/
+### Hero section w/ Heading & Sub-Heading, CTA Btn, and Image
 
 ```emmet
 section#hero>div.heroContent>h1{Your Compelling Headline}+p{Supporting text with keywords for SEO}+a.heroBtn[href="#"]{Call to Action}^div.heroImage>img[alt="Hero Section Image"]
