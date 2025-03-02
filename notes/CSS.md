@@ -444,3 +444,19 @@ p:last-of-type {
 
 ✅ `absolute` centers an element perfectly.
 ✅ `transform: translate(-50%, -50%)` prevents misalignment.
+
+#### **📌 Auto-Width Trick (Using Left & Right for Dynamic Width)**
+
+```css
+.auto-width-box {
+  position: absolute;
+  left: 2rem;
+  right: 2rem;
+  width: auto;
+  background: lightblue;
+  padding: 10px;
+}
+```
+
+✅ Allows the browser to determine the width dynamically.
+✅ Ensures the element stretches between `left` and `right` values.
