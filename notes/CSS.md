@@ -348,3 +348,23 @@ p:last-of-type {
 - Use `rem` for **scalable typography**.
 - Use `%`, `vw`, `vh` for **responsive layouts**.
 - Use `max-width` to **prevent content from stretching too wide**.
+
+## Responsive Design & Best Breakpoints
+
+### Best Breakpoints for Responsive Design
+
+| Device Type   | Min Width | Max Width |
+| ------------- | --------- | --------- |
+| Mobile        | 320px     | 480px     |
+| Tablet        | 481px     | 768px     |
+| Small Laptop  | 769px     | 1024px    |
+| Desktop       | 1025px    | 1440px    |
+| Large Screens | 1441px    | 2560px    |
+
+### Tips for Mobile & Desktop Optimization
+
+✅ **Use Flexbox or Grid** for layouts to ensure fluid responsiveness.
+✅ **Use `max-width: 100%`** to prevent elements from overflowing on smaller screens.
+✅ **Use `rem` instead of `px`** for scalable fonts.
+✅ **Avoid fixed heights** unless necessary—allow content to adjust dynamically.
+✅ **Test on real devices or use browser dev tools (`Ctrl + Shift + M`)**.
