@@ -4,6 +4,13 @@
 
 ### ID and Class Selectors
 
+**Definition:** Used to style elements based on their unique ID or shared class name.
+
+**Use Cases:**
+
+- Use `#idName` when you need to target a unique element on the page.
+- Use `.className` to apply styles to multiple elements that share the same class.
+
 ```css
 #idName {
   /* Styles for an element with a specific ID */
@@ -15,6 +22,13 @@
 ```
 
 ### Attribute Selectors
+
+**Definition:** Allows selection of elements based on their attributes and attribute values.
+
+**Use Cases:**
+
+- Useful for styling elements dynamically based on attribute values (e.g., links, form inputs, images).
+- Great for targeting elements without relying on classes or IDs.
 
 ```css
 /* Attribute Exists */
@@ -55,6 +69,14 @@
 
 ### Using Attribute Selectors on Different Elements
 
+**Definition:** Demonstrates how to apply attribute selectors to specific HTML elements.
+
+**Use Cases:**
+
+- Styling links that start with `https`.
+- Changing the appearance of checkboxes, buttons, and input elements.
+- Targeting form elements based on attributes like `type` or `method`.
+
 ```css
 /* Select all links that start with https */
 a[href^="https"] {
@@ -71,60 +93,39 @@ input[type="checkbox"] {
   width: 20px;
   height: 20px;
 }
-
-/* Select all buttons with a class that contains 'primary' */
-button[class*="primary"] {
-  background-color: green;
-  color: white;
-}
-
-/* Select paragraphs that contain a specific word */
-p[class~="highlight"] {
-  background-color: yellow;
-}
-
-/* Select divs with an ID that starts with 'section-' */
-div[id^="section-"] {
-  padding: 10px;
-  border: 2px solid gray;
-}
-
-/* Select all forms that have a method attribute */
-form[method] {
-  border: 1px solid red;
-}
-
-/* Select all labels associated with a specific input */
-label[for] {
-  font-weight: bold;
-}
 ```
 
 ## Element Selection Techniques
 
 ### Selecting Child and Descendant Elements
 
+**Definition:** Allows targeting of nested elements inside a parent container.
+
+**Use Cases:**
+
+- Use `#id p` to select all `<p>` elements inside an ID container.
+- Use `#id > p` to select only **direct children**.
+
 ```css
-/* Selects all <p> inside #id or .class, regardless of depth */
+/* Selects all <p> inside #id, regardless of depth */
 #id p {
   color: blue;
 }
 
-.class p {
-  color: blue;
-}
-
-/* Selects only direct child <p> inside #id or .class*/
+/* Selects only direct child <p> inside #id */
 #id > p {
-  font-weight: bold;
-}
-
-.class > p {
   font-weight: bold;
 }
 ```
 
 ### Selecting Adjacent and Sibling Elements
+
+**Definition:** Targets elements based on their placement relative to other elements.
+
+**Use Cases:**
+
+- Use `div + p` to select only the **next** `<p>` after a `<div>`.
+- Use `div ~ p` to select **all** `<p>` elements that are siblings of a `<div>`.
 
 ```css
 /* Selects the immediate <p> following a <div> */
@@ -139,6 +140,13 @@ div ~ p {
 ```
 
 ### First, Last, and Nth Child Selectors
+
+**Definition:** Selects elements based on their position among siblings.
+
+**Use Cases:**
+
+- Styling the first or last child in a list.
+- Applying alternating styles using `nth-child(even)`.
 
 ```css
 /* Selects the first child <p> of a parent */
@@ -155,14 +163,16 @@ p:last-child {
 li:nth-child(even) {
   background-color: lightblue;
 }
-
-/* Selects every third <div> */
-div:nth-child(3n) {
-  border: 2px solid black;
-}
 ```
 
 ### First and Last of Type
+
+**Definition:** Selects the first or last element of a specific type within a parent.
+
+**Use Cases:**
+
+- Highlighting the first `<p>` in an article.
+- Styling the last list item differently.
 
 ```css
 /* Selects the first <p> of its type within a parent */
@@ -177,6 +187,12 @@ p:last-of-type {
 ```
 
 ### Only Child and Only-of-Type
+
+**Definition:** Targets elements that are the only child or the only element of their type.
+
+**Use Cases:**
+
+- Applying unique styles to elements that don’t have siblings.
 
 ```css
 /* Selects elements that are the only child of their parent */
