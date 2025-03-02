@@ -67,6 +67,84 @@
 }
 ```
 
+### Pseudo-Classes and Pseudo-Elements
+
+**Definition:**
+
+- **Pseudo-classes** select elements based on their state, position, or interaction.
+- **Pseudo-elements** style specific parts of an element, like the first letter or first line.
+
+**Use Cases:**
+
+- Styling interactive elements like buttons when hovered or clicked.
+- Applying styles to the first letter, first line, or placeholder text.
+
+#### Pseudo-Classes
+
+```css
+/* Change link color when hovered */
+a:hover {
+  color: red;
+}
+
+/* Style visited links differently */
+a:visited {
+  color: purple;
+}
+
+/* Change button appearance when active (clicked) */
+button:active {
+  background-color: darkblue;
+}
+
+/* Style input fields when focused */
+input:focus {
+  border-color: blue;
+}
+
+/* Selects the first child of a parent */
+p:first-child {
+  font-style: italic;
+}
+
+/* Selects the last child of a parent */
+p:last-child {
+  text-decoration: underline;
+}
+```
+
+#### Pseudo-Elements
+
+```css
+/* Style the first letter of a paragraph */
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* Style the first line of a paragraph */
+p::first-line {
+  font-style: italic;
+}
+
+/* Change the color of placeholder text in inputs */
+input::placeholder {
+  color: gray;
+}
+
+/* Add content before an element */
+p::before {
+  content: "📌 ";
+  color: red;
+}
+
+/* Add content after an element */
+p::after {
+  content: " ✅";
+  color: green;
+}
+```
+
 ### Using Attribute Selectors on Different Elements
 
 **Definition:** Demonstrates how to apply attribute selectors to specific HTML elements.
@@ -183,25 +261,5 @@ p:first-of-type {
 /* Selects the last <p> of its type within a parent */
 p:last-of-type {
   color: green;
-}
-```
-
-### Only Child and Only-of-Type
-
-**Definition:** Targets elements that are the only child or the only element of their type.
-
-**Use Cases:**
-
-- Applying unique styles to elements that don’t have siblings.
-
-```css
-/* Selects elements that are the only child of their parent */
-p:only-child {
-  font-weight: bold;
-}
-
-/* Selects elements that are the only one of their type within a parent */
-p:only-of-type {
-  text-transform: uppercase;
 }
 ```
