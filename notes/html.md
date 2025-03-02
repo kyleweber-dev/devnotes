@@ -47,12 +47,21 @@ Tags are the building blocks of HTML. They define the structure and content of a
 
 ### Semantic Elements
 
-- `<article>`:
-  **Definition:** Represents a self-contained, independent piece of content, such as a blog post or news article.
-  **Best Use Case:** Blog posts, news articles, or forum posts.
-- `<section>`:
-  **Definition:** Defines a section of content that typically has a heading.
-  **Best Use Case:** Grouping related content within a webpage, such as different sections of an article.
+- `<article>`: **Definition:** Represents a self-contained, independent piece of content, such as a blog post or news article. **Best Use Case:** Blog posts, news articles, or forum posts.
+- `<section>`: **Definition:** Defines a section of content that typically has a heading. **Best Use Case:** Grouping related content within a webpage, such as different sections of an article.
+- `<aside>`: **Definition:** Represents content that is tangentially related to the main content. **Best Use Case:** Sidebars, advertisements, or related links.
+- `<nav>`: **Definition:** Defines navigation links. **Best Use Case:** Site navigation menus, breadcrumb trails.
+- `<header>`: **Definition:** Represents introductory content, usually containing headings, logos, or navigation links. **Best Use Case:** Page headers, section headers.
+- `<footer>`: **Definition:** Represents the footer of a document or section, typically containing metadata, copyright, and links. **Best Use Case:** Website footers, section footers.
+- `<main>`: **Definition:** Represents the dominant content of the document. **Best Use Case:** Wrapping the primary content of a webpage (excluding navigation, footers, sidebars).
+- `<figure>`: **Definition:** Represents self-contained content, typically used with images, illustrations, or diagrams. **Best Use Case:** Wrapping images with captions using `<figcaption>`.
+- `<figcaption>`: **Definition:** Provides a caption for a `<figure>`. **Best Use Case:** Describing images, charts, or figures.
+- `<mark>`: **Definition:** Highlights text for reference or emphasis. **Best Use Case:** Highlighting search terms or key information.
+- `<time>`: **Definition:** Represents a specific date, time, or duration. **Best Use Case:** Marking events, blog post dates, or timestamps.
+- `<address>`: **Definition:** Provides contact information. **Best Use Case:** Author details, business addresses.
+- `<details>`: **Definition:** Creates an expandable/collapsible section of content. **Best Use Case:** FAQs, additional information that can be toggled.
+- `<summary>`: **Definition:** Provides a summary or caption for the `<details>` element. **Best Use Case:** Used inside `<details>` to create clickable headings.
+- `<dialog>`: **Definition:** Represents a dialog box or interactive component. **Best Use Case:** Modals, pop-up windows.
 
 ## Attributes
 
