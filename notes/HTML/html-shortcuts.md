@@ -293,8 +293,29 @@ a[href="https://example.com"]{Click Here}
 
 ---
 
-## 🔥 **Practice These Shortcuts in VS Code**
+## 🔥 **Pre-Made Shortcuts**
 
-Emmet is built-in, so just **type the shortcut and hit `Tab`!**
+```emmet
+header#header>img.navLogo[alt="Company Logo"]+(nav.navLinks>ul.navList>li.navLink*4>a{Nav Link $})+(div.navBtns>button.nav.btn*2{Button $})
+```
 
-🚀 **Boost your HTML workflow and save time writing markup!**
+✅ Expands to:
+
+````html
+<header id="header">
+  <img src="" alt="Company Logo" class="navLogo" />
+  <nav class="navLinks">
+    <ul class="navList">
+      <li class="navLink"><a href="">Nav Link 1</a></li>
+      <li class="navLink"><a href="">Nav Link 2</a></li>
+      <li class="navLink"><a href="">Nav Link 3</a></li>
+      <li class="navLink"><a href="">Nav Link 4</a></li>
+    </ul>
+  </nav>
+  <div class="navBtns">
+    <button class="nav btn">Button 1</button
+    ><button class="nav btn">Button 2</button>
+  </div>
+</header>
+```
+````
