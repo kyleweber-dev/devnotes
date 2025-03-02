@@ -45,7 +45,7 @@ Tags are the building blocks of HTML. They define the structure and content of a
 
 ---
 
-### Semantic Elements
+## Semantic Elements
 
 - `<article>`: **Definition:** Represents a self-contained, independent piece of content, such as a blog post or news article. **Best Use Case:** Blog posts, news articles, or forum posts.
 - `<section>`: **Definition:** Defines a section of content that typically has a heading. **Best Use Case:** Grouping related content within a webpage, such as different sections of an article.
@@ -62,6 +62,58 @@ Tags are the building blocks of HTML. They define the structure and content of a
 - `<details>`: **Definition:** Creates an expandable/collapsible section of content. **Best Use Case:** FAQs, additional information that can be toggled.
 - `<summary>`: **Definition:** Provides a summary or caption for the `<details>` element. **Best Use Case:** Used inside `<details>` to create clickable headings.
 - `<dialog>`: **Definition:** Represents a dialog box or interactive component. **Best Use Case:** Modals, pop-up windows.
+
+### Examples - Basic Structure Using Semantic Elements
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Example</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <h2>Article Title</h2>
+        <p>This is an example of an article.</p>
+        <figure>
+          <img src="image.jpg" alt="Example Image" />
+          <figcaption>An example image caption.</figcaption>
+        </figure>
+        <p>Published on <time datetime="2025-03-01">March 1, 2025</time></p>
+      </article>
+    </main>
+
+    <aside>
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="#">Another Article</a></li>
+        <li><a href="#">More Content</a></li>
+      </ul>
+    </aside>
+
+    <footer>
+      <p>&copy; 2025 My Website</p>
+      <address>
+        Contact us at <a href="mailto:info@example.com">info@example.com</a>
+      </address>
+    </footer>
+  </body>
+</html>
+```
 
 ## Attributes
 
