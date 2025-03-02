@@ -264,7 +264,7 @@ p:last-of-type {
 }
 ```
 
-### CSS Sizing Units Cheat Sheet
+## CSS Sizing Units Cheat Sheet
 
 **Definition:** CSS provides multiple units for defining element sizes, allowing flexibility based on context and responsiveness.
 
