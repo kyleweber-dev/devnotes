@@ -263,3 +263,88 @@ p:last-of-type {
   color: green;
 }
 ```
+
+### CSS Sizing Units Cheat Sheet
+
+**Definition:** CSS provides multiple units for defining element sizes, allowing flexibility based on context and responsiveness.
+
+**Use Cases & Examples:**
+
+#### **1️⃣ Pixels (`px`)**
+
+- **Fixed unit**, best for precise control.
+- Not responsive, does not scale with user settings.
+- **Example:**
+
+```css
+.box {
+  width: 200px;
+  height: 100px;
+}
+```
+
+#### **2️⃣ Relative Units (`em`, `rem`)**
+
+- **`em`**: Relative to the font-size of the element’s parent.
+- **`rem`**: Relative to the root (`html`) font size.
+- More flexible than `px` for **scaling with user preferences**.
+- **Example:**
+
+```css
+.box {
+  font-size: 2em; /* 2x the parent's font-size */
+}
+
+.container {
+  font-size: 1.5rem; /* 1.5x the root font-size */
+}
+```
+
+#### **3️⃣ Viewport Units (`vh`, `vw`)**
+
+- `vh` → 1% of the viewport height.
+- `vw` → 1% of the viewport width.
+- **Great for full-screen layouts.**
+- **Example:**
+
+```css
+.full-screen {
+  width: 100vw;
+  height: 100vh;
+}
+```
+
+#### **4️⃣ Percentage (`%`)**
+
+- Relative to the parent element’s size.
+- **Useful for responsive layouts.**
+- **Example:**
+
+```css
+.child {
+  width: 50%; /* 50% of parent width */
+}
+```
+
+#### **5️⃣ Min & Max Units (`min-content`, `max-content`, `min-width`, `max-width`)**
+
+- **`min-content`** → Smallest possible size for content.
+- **`max-content`** → Expands fully to fit content.
+- **Example:**
+
+```css
+.text-box {
+  width: min-content;
+}
+
+.container {
+  max-width: 1200px; /* Restricts max size */
+  min-width: 300px; /* Prevents it from shrinking too much */
+}
+```
+
+🚀 **Best Practices:**
+
+- Use `rem` for **scalable typography**.
+- Use `%`, `vw`, `vh` for **responsive layouts**.
+- Use `max-width` to **prevent content from stretching too wide**.
