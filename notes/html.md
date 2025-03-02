@@ -45,6 +45,11 @@ Tags are the building blocks of HTML. They define the structure and content of a
 
 ---
 
+### Semantic Elements
+
+- `<article>`: **Definition:** Represents a self-contained, independent piece of content, such as a blog post or news article. **Best Use Case:** Blog posts, news articles, or forum posts.
+- `<section>`: **Definition:** Defines a section of content that typically has a heading. **Best Use Case:** Grouping related content within a webpage, such as different sections of an article.
+
 ## Attributes
 
 ### What are Attributes?
