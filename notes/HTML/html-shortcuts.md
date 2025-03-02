@@ -298,20 +298,20 @@ a[href="https://example.com"]{Click Here}
 ### Header w/ Logo, 4 Nav Links, and 2 Buttons
 
 ```emmet
-header#header>img.navLogo[alt="Company Logo"]+(nav.navLinks>ul.navList>li.navLink*4>a{Nav Link $})+(div.navBtns>button.nav.btn*2{Button $})
+header#header>img.navLogo[alt="Company Logo"]+(nav.navLinks>ul.navList>li.navLink*4>a[href="#"]{Nav Link $})+(div.navBtns>button.nav.btn*2{Button $})
 ```
 
 ✅ Expands to:
 
-````html
+```html
 <header id="header">
   <img src="" alt="Company Logo" class="navLogo" />
   <nav class="navLinks">
     <ul class="navList">
-      <li class="navLink"><a href="">Nav Link 1</a></li>
-      <li class="navLink"><a href="">Nav Link 2</a></li>
-      <li class="navLink"><a href="">Nav Link 3</a></li>
-      <li class="navLink"><a href="">Nav Link 4</a></li>
+      <li class="navLink"><a href="#">Nav Link 1</a></li>
+      <li class="navLink"><a href="#">Nav Link 2</a></li>
+      <li class="navLink"><a href="#">Nav Link 3</a></li>
+      <li class="navLink"><a href="#">Nav Link 4</a></li>
     </ul>
   </nav>
   <div class="navBtns">
@@ -320,4 +320,22 @@ header#header>img.navLogo[alt="Company Logo"]+(nav.navLinks>ul.navList>li.navLin
   </div>
 </header>
 ```
-````
+
+### Hero section w/
+
+```emmet
+section#hero>div.heroContent>h1{Your Compelling Headline}+p{Supporting text with keywords for SEO}+a.heroBtn[href="#"]{Call to Action}^div.heroImage>img[alt="Hero Section Image"]
+```
+
+✅ Expands to:
+
+```html
+<section id="hero">
+  <div class="heroContent">
+    <h1>Your Compelling Headline</h1>
+    <p>Supporting text with keywords for SEO</p>
+    <a href="#" class="heroBtn">Call to Action</a>
+  </div>
+  <div class="heroImage"><img src="" alt="Hero Section Image" /></div>
+</section>
+```
