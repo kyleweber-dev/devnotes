@@ -295,6 +295,8 @@ a[href="https://example.com"]{Click Here}
 
 ## 🔥 **Pre-Made Shortcuts**
 
+### Header w/ Logo, 4 Nav Links, and 2 Buttons
+
 ```emmet
 header#header>img.navLogo[alt="Company Logo"]+(nav.navLinks>ul.navList>li.navLink*4>a{Nav Link $})+(div.navBtns>button.nav.btn*2{Button $})
 ```
