@@ -368,3 +368,79 @@ p:last-of-type {
 ✅ **Use `rem` instead of `px`** for scalable fonts.
 ✅ **Avoid fixed heights** unless necessary—allow content to adjust dynamically.
 ✅ **Test on real devices or use browser dev tools (`Ctrl + Shift + M`)**.
+
+## CSS Positioning Cheat Sheet
+
+### Positioning Types
+
+| Position Type      | Definition & Use Case                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------- |
+| `static` (default) | Elements flow naturally with no positioning.                                                            |
+| `relative`         | Moves element **relative to its normal position** without affecting other elements.                     |
+| `absolute`         | Removes element from the document flow, positioning it **relative to the nearest positioned ancestor**. |
+| `fixed`            | Stays fixed relative to the viewport (useful for sticky headers or floating elements).                  |
+| `sticky`           | Behaves like `relative` until a certain scroll point, then acts like `fixed`.                           |
+
+### Best Practices for Navigation Layouts
+
+#### **📌 Fixed Top Navigation**
+
+```css
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  color: white;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.content {
+  margin-top: 50px; /* Prevent content from being covered by navbar */
+}
+```
+
+✅ Keeps navbar visible at all times.
+✅ Adds margin to content to prevent overlap.
+
+#### **📌 Sidebar Navigation (Left Aligned)**
+
+```css
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background: #222;
+  color: white;
+  padding: 20px;
+}
+
+.main-content {
+  margin-left: 250px; /* Push content to the right */
+  padding: 20px;
+}
+```
+
+✅ Fixed left sidebar with content adjusting accordingly.
+✅ `margin-left` used to prevent content from overlapping the sidebar.
+
+#### **📌 Centering an Element Using Positioning**
+
+```css
+.center-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: lightgray;
+  padding: 20px;
+  border-radius: 10px;
+}
+```
+
+✅ `absolute` centers an element perfectly.
+✅ `transform: translate(-50%, -50%)` prevents misalignment.
